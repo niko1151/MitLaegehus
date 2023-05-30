@@ -1,0 +1,28 @@
+{
+    "name": "ml/laege",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nikolai",
+            "email": "nsf@inkpro.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "nesbot/carbon": "^2.28",
+        "gettext/translator": "^1.0",
+        "vlucas/phpdotenv": "^3.6",
+        "gettext/gettext": "^5.5",
+        "ttskch/select2-bootstrap4-theme": "^1.5",
+        "mikecao/flight": "^2.0",
+        "ext-pdo": "*"
+
+    },
+    "autoload": {
+        "PSR-4": {
+            "ml\\laege\\": "src/"
+        }
+    }
+}
